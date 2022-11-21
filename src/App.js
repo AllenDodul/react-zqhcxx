@@ -1,11 +1,20 @@
 import React from "react";
 import "./style.css";
 
-export default function App() {
-  return (
+//Import All components
+import Nav from './Nav';
+import Cart from './Cart';
+import ProductList from './ProductList';
+
+const App = ()=>{
+  return(
     <div>
-      <h1>Hello StackBlitz!</h1>
-      <p>Start editing to see some magic happen :)</p>
+      <Nav />
+      <div className="page-content">
+        <ProductList />
+        <Cart />
+      </div>
     </div>
-  );
+  )
 }
+export default App;

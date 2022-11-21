@@ -1,0 +1,26 @@
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  width: 100%;
+  max-width: 1024px;
+  padding: 0px 10px;
+  background: black;
+  color: white;
+}
+.link-container ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.link-container ul li {
+  list-style: none;
+  padding: 2px 5px;
+  margin: 0px 5px;
+  transition: all ease-in-out 0.3s;
+}
+.link-container ul li:hover{
+  background: #0459FD;
+  cursor: pointer;
+}
